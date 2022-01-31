@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>NFT Color Pixel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/nftcolorpixel.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/HeaderNFTColorPixel_0.3934978751045932.png");
+  min-height: 45%;
+}
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<header class="bgimg ncp-display-container"></header>
+
+<div class="ncp-sand ncp-grayscale ncp-large">
+  <div class="ncp-container" id="about">
+    <div class="ncp-content" style="max-width:%100">
+      <h1 class="ncp-center ncp-padding-16"><span>NFT Color Pixel</span></h1>
+      <p align="justify"> 
+          This project was developed in python programming language and numpy, random and Image libraries are used.
+          When the program is run, it generates 696 different random png images.
+          The number 696 is obtained by multiplying the ASCII values of the letters N,F,T and the length of the "RGB" string expression.
+      </p>
+      <p> 
+          TOTAL_SUPPLY = ASCII('N') * ASCII('F') * ASCII('T') * LENGTH("RGB")
+      </p>
+      <p align="justify"> 
+          The edges of the NFT lettering are left fixed with black color.
+          The inner filling of the NFT text was randomly determined once for each picture and applied to the entire inner filling.
+          A random color is generated for each pixel on the outside of the NFT text.
+      </p>
+      <p align="justify"> 
+          The program calculates a special COLOR_AVARAGE average number for each NFT it produces.
+          R, G, B values in each pixel are summed and divided by 3, and the all total is found by applying it for all pixels.
+          The total value found is calculated by dividing the power of the TOTAL_SUPPLY constant.
+          COLOR_AVARAGE value makes each NFT COLOR PIXEL NFT different from each other and serves as an identity.
+      </p>
+      <p align="justify">
+          When the development was completed, the first 696 different NFTs produced by the program were offered for sale on OpenSea.
+          The floor price for NFTs is inspired by the unique COLOR_AVARAGE number for each image.
+      </p>
+      <p align="justify">
+          Note: The site header was uniquely generated using the same methods. 
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer class="ncp-center ncp-teal ncp-padding-16 ncp-large">
+  <p><i>twitter.com/nftcolorpixel</i></p>
+  <p>Powered by NFT Color Pixel</p>
+</footer>
+
+
+</body>
+</html>
